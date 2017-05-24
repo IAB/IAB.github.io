@@ -1,0 +1,199 @@
+body{
+	font-family : "Trebuchet MS", Verdana,sana-serif ;
+	font-size : 16px;
+	background-color :black;
+	padding : 100px;
+}
+
+#main{
+	padding :5px;
+	padding-right: 15px;
+	padding-left : 15px;
+	color  :#696969;
+	background-color :#ffffff;
+	border-radius : 0 0 5px 5px ;
+}
+
+#banner {
+	background : url('music-equipment.jpg');
+	min-height : 500px;
+	width : 100%;
+	background-size : cover ;
+	background-repeat : no-repeat ;
+}
+	
+ul#menu {
+	padding : 0;
+	margin-bottom  : 11px;
+}
+
+ul#menu li {
+	display : inline ;
+	margin-right : 3px ;
+}
+
+ul#menu li a{
+	background-color : #ffffff;
+	padding : 10px 20px ;
+	font-family : ARIAL BLACK;
+	text-decoration : none ;
+	color : #696969;
+	border-radius : 4px 4px 0 0 ;
+}
+
+ul#menu li a:hover{
+	color  : white ;
+	background-color : black;
+}
+
+.city {
+	background-color : #777;
+	float : left;
+	padding :15px;
+	margin : 5px;
+	width :  325px;
+	height : 250px;
+	transition : 500ms ease-in;
+}
+
+h1{
+	font-family : georgia, serif;
+	font-size : 30px;
+	color : black;
+	text-align : center;
+	border-bottom : 3px solid black;
+}
+img.top{
+	vertical-align : text-top;
+}
+
+img:hover{
+	transition : 500ms ease-in;
+	border : 3px solid black;
+}
+	
+a:link{
+list-style-type : none;
+color : white;
+text-decoration : none;
+}	
+a:visited {
+list-style-type : none;
+color : white;
+text-decoration : none;
+
+}
+
+a:active 
+{
+list-style-type : none;
+color : white;
+text-decoration : none;
+
+}
+	
+a:hover {
+list-style-type : none;
+color : white;
+text-decoration : none;
+
+}
+	
+	section#wrapper{
+width : 1000px;
+margin : 50px auto 0 auto;
+}
+
+div.box{
+width : 200px;
+height : 200px;
+border-radius : 110px;
+margin: 30px 20px 0 20px;
+float : left;
+color : white;
+tex-align : center;
+overflow : hidden;
+box-shadow : 10px 10px 20px rgba(0,0,0,0.5);
+}
+div.box img {
+border-radius : 100px;
+}
+
+div.box div{
+width: 200px;
+height : 105px;
+border-radius :100px;
+background-color : black;
+padding : 95px 0 0 0;
+
+}
+
+div.effect-1{
+position  : relative;
+}
+
+div.effect-1 div{
+position : absolute;
+margin-left : -200px;
+top : 0;
+left : 0;
+color : white;
+opacity  :0.8;
+transition : margin-left 500ms ;
+}
+
+div.effect-1:hover div{
+margin-left : 0;
+}
+
+div.effect-2{
+position  : relative;
+}
+
+div.effect-2 div{
+position : absolute;
+margin-left : -200px;
+top : 0;
+left : 0;
+opacity  :0.8;
+transition : margin-left 500ms ;
+}
+
+div.effect-2:hover div{
+margin-left : 0;
+}
+div.effect-3{
+position  : relative;
+}
+
+div.effect-3 div{
+position : absolute;
+margin-left : -200px;
+top : 0;
+left : 0;
+opacity  :0.8;
+transition : margin-left 500ms ;
+}
+
+
+div.effect-3:hover div{
+margin-left : 0;
+}
+
+div.effect-4{
+position  : relative;
+}
+
+div.effect-4 div{
+position : absolute;
+margin-left : -200px;
+top : 0;
+left : 0;
+text-align: center;
+opacity  :0.8;
+transition : margin-left 500ms ;
+}
+
+div.effect-4:hover div{
+margin-left : 0;
+}
