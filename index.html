@@ -1,6 +1,21 @@
 <html>
 <head>
 <link  rel="stylesheet" href="home1.css">
+<link href="css/style.css" rel="stylesheet">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+  <script src="js/jquery.ui.touch-punch.min.js"></script>
+  <script src="js/jquery.jplayer.min.js"></script>
+  <script src="js/jplayer.playlist.min.js"></script>
+  <script src="js/id3.min.js"></script>
+  <script src="js/iscroll.min.js"></script>
+  
+  <script src="js/jquery.linerPlayer.js"></script>      
+  
+  <link href="HERE/here.css" rel="stylesheet">
+  <script src="HERE/here.js"></script>  
+
 </head>
 <body>
 <h2><a href="index.html"><font color="white" size="10">LUNATIC MUSIC</h2></a></font>
@@ -61,25 +76,36 @@
 
 
 </div>
-<!-- <font color="white">
-<h2>CONNCET WITH US </h2>
-<div class="city">
-<center><h2><a href="form.html">CONTACT US </a></h2></center>
-<p><img src="main_image_contactus.jpg" width="300" height="150" border="2">
-</p>
+
 </div>
-<div class="city">
-<center><h2><a href="musiconline.html">ONLINE MORE MUSIC</a></h2></center>
-<p><img src="Benefits-of-downloading-music-online.jpg" width="300" height="150" border="2">
-</p>
-</div>
-<div class="city">
-<center><h2><a href="about.html">ABOUT US</a></h2></center>
-<p><img src="about-us.jpg" width="300" height="150" border="2">
-</p>
-</div>
-</font>
--->
+<script>
+    jQuery(function($) {
+      $('body').linerPlayer({
+        firstPlaying: 0,
+        autoplay: true,
+        shuffle: false,
+        //veryThin: true,
+        slideAlbumsName: true,
+        nowplaying2title: true,
+        roundedCorners: true,
+        //accentColor:"#cc181e",  //008DDE      
+        pluginPath: "/canyon/liner/", // <<< IMPORTANT! - Change this to your path to the plugin folder
+        playlist: [ //♩ ♪ ☊ ♫ ♬ //
+          {mp3:"muz/itgirl.mp3", title:"IT GIRL", artist:"JASON DURELO", album:"Single", cover:"muz/img/ItGirl.jpg"},
+          {mp3:"muz/The Best of Both Worlds.mp3", title:"The Best of Both Worlds", artist:"WWE Team", album:"WWE", cover:"muz/img/wwe.jpg"},
+          {mp3:"muz/Swedish_House_Mafia_Feat._John_Martin_-_Dont_You_Worry_Child.mp3", title:"DON'T YOU WORRY CHILD", artist:"SHM", album:"Single", cover:"muz/img/shm.jpg"},
+          {mp3:"muz/The Chainsmokers - Closer (Lyric) ft. Halsey.mp3", title:"CLOSER", artist:"THE CHAINSMOKERS", album:"LOVE", cover:"muz/img/Closer.png"},
+          {mp3:"muz/The_Pussycat_Dolls_Jai_Ho.mp3", title:"JAI HO", artist:"NICOLE", album:"SLUMDOG", cover:"muz/img/jai.jpg"},
+          {mp3:"muz/Morning Train (9 to5).mp3", title:"Morning Train (9 to5)", artist:"Sheena Easton", album:"Country", cover:"muz/img/Morning_Train.jpg"},
+          {mp3:"muz/superhero.mp3", title:"SUPERHEROS", artist:"THE SCRIPT", album:"SCIENCE & FAITH", cover:"muz/img/The_Script.png"}
+        ]
+      });
+      
+    });
+  </script>
+
+</body>
+</html>
 <script src="home2.js"></script>
 </body>
 </html>
