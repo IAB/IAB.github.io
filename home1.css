@@ -18,6 +18,7 @@ body{
 	background : url('music-equipment.jpg');
 	min-height : 500px;
 	width : 100%;
+	height:auto;
 	background-size : cover ;
 	background-repeat : no-repeat ;
 }
