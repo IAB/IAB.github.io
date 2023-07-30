@@ -1,0 +1,153 @@
+<html>
+<head>
+<link  rel="stylesheet" href="home1.css">
+<link href="css/style.css" rel="stylesheet">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+  <script src="js/jquery.ui.touch-punch.min.js"></script>
+  <script src="js/jquery.jplayer.min.js"></script>
+  <script src="js/jplayer.playlist.min.js"></script>
+  <script src="js/id3.min.js"></script>
+  <script src="js/iscroll.min.js"></script>
+  
+  <script src="js/jquery.linerPlayer.js"></script>      
+  
+  <link href="HERE/here.css" rel="stylesheet">
+  <script src="HERE/here.js"></script>
+<style>
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+	font-size : 20px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+</style>
+
+</head>
+<body>
+<h2><a href="index.html"><font color="white" size="10">LUNATIC MUSIC</h2></a></font>
+<nav id="nav01"></nav>
+<div id="banner"></div><hr>
+<div id="main">
+<h1>MUSIC STARTS HERE </h1>
+<center>
+<pre>
+<h2>DON'T GET IN MY WAT - ZACK HEMSEY</h2>
+<audio controls>
+  <source src="dontgetinmyway.mp3" type="audio/ogg">
+  <source src="dontgetinmyway.mp3" type="audio/mpeg">
+
+</audio><hr></font>
+</pre>
+<pre>
+<h2>UNSTOPPABLE - SIA</h2>
+<audio controls>
+  <source src="Unstoppable.mp3" type="audio/ogg">
+  <source src="Unstoppable.mp3" type="audio/mpeg">
+
+</audio><hr></font>
+</pre>
+<pre>
+<h2>2 Chainz & Wiz Khalifa - WE OWN IT </h2>
+<audio controls>
+  <source src="Weownit.mp3" type="audio/ogg">
+  <source src="Weownit.mp3" type="audio/mpeg">
+
+</audio><hr></font>
+</pre>
+<pre>
+<h2>2WEI, JOZNEZ, KATEM - READY FOR WAR</h2>
+<audio controls>
+  <source src="readyforwar.mp3" type="audio/ogg">
+  <source src="readyforwar.mp3" type="audio/mpeg">
+
+</audio><hr></font>
+</pre>
+<pre>
+<h2>RAG'n'BONE MAN - I AM ONLY HUMAN</h2>
+<audio controls>
+  <source src="Human.mp3" type="audio/ogg">
+  <source src="Human.mp3" type="audio/mpeg">
+
+</audio><hr></font>
+</pre>
+
+
+
+<!--PAGINATION -->
+<div class="pagination">
+  <a href="musiconline.html">&laquo;</a>
+  <a  href="musiconline.html">1</a>
+  <a  href="music2.html">2</a>
+  <a  href="music3.html">3</a>
+  <a href="music4.html">4</a>
+  <a href="music5.html">5</a>
+  <a class="active" href="music6.html">6</a>
+  <a href="music6.html">&raquo;</a>
+</div>
+<br><br><br>
+</div>
+<br>
+<script>
+    jQuery(function($) {
+      $('body').linerPlayer({
+        firstPlaying: 0,
+        autoplay: true,
+        shuffle: false,
+        //veryThin: true,
+        slideAlbumsName: true,
+        nowplaying2title: true,
+        roundedCorners: true,
+        //accentColor:"#cc181e",  //008DDE      
+        pluginPath: "/canyon/liner/", // <<< IMPORTANT! - Change this to your path to the plugin folder
+        playlist: [ //♩ ♪ ☊ ♫ ♬ //
+          {mp3:"muz/itgirl.mp3", title:"IT GIRL", artist:"JASON DURELO", album:"Single", cover:"muz/img/ItGirl.jpg"},
+          {mp3:"muz/The Best of Both Worlds.mp3", title:"The Best of Both Worlds", artist:"WWE Team", album:"WWE", cover:"muz/img/wwe.jpg"},
+          {mp3:"muz/Swedish_House_Mafia_Feat._John_Martin_-_Dont_You_Worry_Child.mp3", title:"DON'T YOU WORRY CHILD", artist:"SHM", album:"Single", cover:"muz/img/shm.jpg"},
+          {mp3:"muz/The Chainsmokers - Closer (Lyric) ft. Halsey.mp3", title:"CLOSER", artist:"THE CHAINSMOKERS", album:"LOVE", cover:"muz/img/Closer.png"},
+          {mp3:"muz/The_Pussycat_Dolls_Jai_Ho.mp3", title:"JAI HO", artist:"NICOLE", album:"SLUMDOG", cover:"muz/img/jai.jpg"},
+          {mp3:"muz/Morning Train (9 to5).mp3", title:"Morning Train (9 to5)", artist:"Sheena Easton", album:"Country", cover:"muz/img/Morning_Train.jpg"},
+          {mp3:"muz/superhero.mp3", title:"SUPERHEROS", artist:"THE SCRIPT", album:"SCIENCE & FAITH", cover:"muz/img/The_Script.png"}
+        ]
+      });
+      
+    });
+  </script>
+<!--
+<font color="white">
+<h2><u>CONNCET WITH US </u></h2>
+<div class="city">
+<h2> CONTACT US </h2>
+<p><img src="main_image_contactus.jpg" width="300" height="150" border="2">
+</p>
+<center>
+<p>England LONDON</p></center>
+</div>
+<div class="city">
+<h2><u>ONLINE MUSIC</u> </h2>
+<p><img src="Benefits-of-downloading-music-online.jpg" width="300" height="150" border="2">
+</p>
+<center>
+<p>England LONDON</p></center>
+</div>
+<div class="city">
+<h2><u>ABOUT US </u> </h2>
+<p><img src="about-us.jpg" width="300" height="150" border="2">
+</p>
+<center>
+<p>England LONDON</p></center>
+</div>
+</font>-->
+<script src="home2.js"></script>
+</body>
+</html>
